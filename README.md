@@ -1,3 +1,15 @@
+Having modified this lib continually, I made a fork to hold the modifications. 
+
+Ada's version as of this fork, has a non-TTN-compatible set of data rates defined. One mod I will make is to make the available data rates match the TTN channel plan. 
+
+Another is to make a define "diagnostics" so that one can sweep a gateway to collect a complete list of channels and data rates it receives on. 
+
+Another is optimizing the LoRa transceiver mote as an I2C slave, so that a master can control several slaves, provide timing and GPS position to several slaves, and monitor whether packets get sent. This is because the problem with such survey tools as TTNMapper is that they don't show failed attempts.
+
+As the University Of Hawaii explores providing LoRaWAN coverage to the community and researchers, we will develop one or more other Gits to store as-tested code and hardware specs. 
+
+Alan Whinery - 09-27-19, (with no code mods completed). 
+
 # Adafruit TinyLoRa Library [![Build Status](https://travis-ci.com/adafruit/TinyLoRa.svg?branch=master)](https://travis-ci.com/adafruit/TinyLoRa)
 
 
