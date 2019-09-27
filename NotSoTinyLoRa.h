@@ -115,7 +115,7 @@ class TinyLoRa
 		int8_t _cs, _irq, _rst;
     bool _isMultiChan;
     unsigned char _rfmMSB, _rfmMID, _rfmLSB, _sf, _bw, _modemcfg;
-    static const unsigned char LoRa_Frequency[8][3];
+    static const unsigned char LoRa_Frequency[9][3];
 		static const unsigned char S_Table[16][16];
 		void RFM_Send_Package(unsigned char *RFM_Tx_Package, unsigned char Package_Length);
 		void RFM_Write(unsigned char RFM_Address, unsigned char RFM_Data);
