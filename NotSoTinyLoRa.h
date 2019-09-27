@@ -1,5 +1,5 @@
 /*!
- * @file TinyLoRa.h
+ * @file NotSoTinyLoRa.h
  *
  * This is part of Adafruit's TinyLoRa library for the Arduino platform. It is
  * designed specifically to work with the Adafruit Feather 32u4 RFM95 LoRa:
