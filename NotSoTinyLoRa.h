@@ -53,6 +53,7 @@ typedef enum rfm_channels
   CH5,
   CH6,
   CH7,
+  CH8,
   MULTI,
 } rfm_channels_t;
 
